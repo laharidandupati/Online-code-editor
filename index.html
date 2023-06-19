@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>Page Title</title>
+<style>
+body {
+  background-image: url('img2.gif');
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+.text-typing {
+  padding:20px 30px;
+  font-size:35px;
+  font-family: monospace;
+  border-radius:50px;
+}
+.text-typing p{
+color:white;
+font-size:60px;
+  margin:0px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 4s steps(22,end) forwards,
+            blink 1s infinite;
+}
+ 
+@keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+}
+@keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
+  }
+  50% {
+    border-right:2px solid #222;
+  }
+}
+span {
+color:white;
+        font-size: 30px;
+        font-family: monospace;
+    
+        animation: blink1 2s linear infinite;
+      }
+ @keyframes blink1 {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: .5;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+     .btn {
+  background: blue;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn:hover {background-color: blue}
+
+.btn:active {
+  background-color: blue;
+  box-shadow: 0 5px blue;
+  transform: translateY(4px);
+}
+   @keyframes glowing {
+        0% {
+          background-color: blue;
+          box-shadow: 0 0 5px blue;
+        }
+        50% {
+          background-color: blue;
+          box-shadow: 0 0 20px blue;
+        }
+        100% {
+          background-color: blue;
+          box-shadow: 0 0 5px blue;
+        }
+      }
+      .btn {
+        animation: glowing 1300ms infinite;
+      }
+</style>
+</head>
+<body>
+<br>
+<br>
+<div class="text-typing">
+<br>
+        <center><p>Welcome to Online Code Editor </p></center>
+<br><br><br>
+</div>
+<div class="blink1">
+<center><span>Write, edit and run HTML, CSS and JavaScript code online.
+<br><br>Our editor updates the webview automatically in real-time as you write code.</span></center>
+
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="compiler.html">
+    <center><button class="btn button1"><b>Get Started</b></button></center>
+  </a>
+</div>
+
+</body>
+</html>
+
+
